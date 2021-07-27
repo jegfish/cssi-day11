@@ -13,6 +13,7 @@ const signIn = () => {
       let user = result.user;
 
       console.log(user);
+      window.location = "writeNote.html";
     }).catch((error) => {
       // Handle Errors here.
       let errorCode = error.code;
